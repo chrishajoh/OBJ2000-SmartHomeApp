@@ -1,6 +1,8 @@
 package model;
 
 
+import log.EventLog;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -70,7 +72,7 @@ public class SmartHomeApp implements App {
         if (index >= 0 && index < devices.size() && devices.get(index) instanceof Thermostat thermostat) {
             thermostat.setTemperature(t);
             eventLog.addLog("Endret temperatur på index: " + devices.get(index) + " til " + t);
-            System.out.println("[" + index + "] " + "Thermostat [" + thermostat.name + ", " + "temperature" + t + "]");
+            System.out.println("[" + index + "] " + "Thermostat [" + thermostat.name + ", " + "temperature=" + t + "]");
         }
     }
 

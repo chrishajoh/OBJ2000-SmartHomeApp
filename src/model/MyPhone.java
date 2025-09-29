@@ -3,8 +3,8 @@ package model;
 import java.util.ArrayList;
 
 public class MyPhone {
-    private String phoneName;
-    private ArrayList<App> apps = new ArrayList<>();
+    private final String phoneName;
+    private final ArrayList<App> apps = new ArrayList<>();
 
     // Konstruktør
     public MyPhone(String phoneName) {

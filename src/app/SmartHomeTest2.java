@@ -23,8 +23,7 @@ public class SmartHomeTest2 {
             s.schedule(time);
             System.out.println(s + " er planlagt til kl. " + time);
         }
-
-
+        
         System.out.println("\nLeser av sensorer...");
         // Oppretter temperatur og legger til i sensor
         TemperatureSensor inneTemp = new TemperatureSensor("Inne tmep");
