@@ -1,6 +1,8 @@
 package model;
 
 
+import log.EventLog;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
