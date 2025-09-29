@@ -1,11 +1,9 @@
 package model;
 
-
 import log.EventLog;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 
 public class SmartHomeApp implements App {
     private final ArrayList<SmartDevice> devices = new ArrayList<>();

@@ -3,7 +3,7 @@ package log;
 import java.util.ArrayList;
 
 public class EventLog {
-    final private ArrayList<String> eventLogs = new ArrayList<>();
+    private final ArrayList<String> eventLogs = new ArrayList<>();
 
     // Legger til log i en ArrayList
     public void addLog(String message) {
